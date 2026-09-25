@@ -1,0 +1,174 @@
+        @font-face {
+            font-family: 'RamenKatsuya';
+            src: url('The Last Shuriken.ttf');
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdfaf6; 
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #c0392b; 
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+            font-family: 'RamenKatsuya', sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #c0392b;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .header-text {
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+        }
+
+        ul {
+            list-style-type: none; 
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px; 
+        }
+
+        li {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+        }
+
+        li img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover; 
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        li h3 {
+            color: #c0392b;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        li p {
+            color: #666;
+            font-size: 0.95em;
+            margin: 0;
+        }
+
+        .info-section {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 40px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+            padding-bottom: 20px;
+        }
+        
+        .video-container {
+        text-align: center;
+        margin: 30px auto;
+        max-width: 800px;
+        }
+
+        .video-container video, 
+        .video-container iframe {
+        width: 50%;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .navbar {
+            text-align: center;
+            background: linear-gradient(to right, #640a00, #c0392b);
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 3px solid #000000;
+            border-bottom: 3px solid #000000;
+            margin-bottom: 30px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 5px 10px;
+            transition: color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            color: #c07f2b;
+            transform: scale(1.1);
+        }
+        
+        .order-steps {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            padding: 30px 30px 30px 60px;
+            margin: 0 auto 40px auto;
+            max-width: 800px;
+        }
+
+        .order-steps li {
+            background-color: transparent;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 0;
+            text-align: left;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .order-steps li:hover {
+            transform: none;
+            box-shadow: none;
+        }
